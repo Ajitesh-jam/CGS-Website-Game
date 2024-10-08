@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>C G S</title>
+    <title>Unity WebGL Player | Cgs_Website_Final</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">C  G  S </div>
+        <div id="unity-build-title">Cgs_Website_Final</div>
       </div>
     </div>
     <script>
@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/FinalDraft.loader.js";
+      var loaderUrl = buildUrl + "/FinalDraft2.loader.js";
       var config = {
-        dataUrl: buildUrl + "/FinalDraft.data.gz",
-        frameworkUrl: buildUrl + "/FinalDraft.framework.js.gz",
-        codeUrl: buildUrl + "/FinalDraft.wasm.gz",
+        dataUrl: buildUrl + "/FinalDraft2.data.gz",
+        frameworkUrl: buildUrl + "/FinalDraft2.framework.js.gz",
+        codeUrl: buildUrl + "/FinalDraft2.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Cgs_Website_Final",
@@ -94,8 +94,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "1920px";
-        canvas.style.height = "1080px";
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
       }
 
       loadingBar.style.display = "block";
